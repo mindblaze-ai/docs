@@ -150,6 +150,22 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Untitled Tab",
+        "dropdowns": [
+          {
+            "dropdown": "dropdown",
+            "anchors": [
+              {
+                "anchor": "anchor",
+                "pages": [
+                  "page"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
