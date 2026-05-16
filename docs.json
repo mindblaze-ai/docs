@@ -146,7 +146,8 @@
             "pages": [
               "engineering/architecture/index",
               "engineering/architecture/services-overview",
-              "engineering/architecture/data-models"
+              "engineering/architecture/data-models",
+              "engineering/architecture/pg-salesforce-sync"
             ]
           }
         ]

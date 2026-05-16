@@ -1,0 +1,193 @@
+---
+title: "Postgres ↔ Salesforce sync"
+description: "How the bi-directional sync engine keeps Postgres and Salesforce in step, with field-level conflict resolution and echo prevention."
+---
+
+This page documents the sync engine that keeps a Postgres target database and Salesforce in sync in both directions. Use it when you're adding a synced object or field, debugging missing or duplicated records, or tuning sync performance.
+
+## When to use this
+
+You should read this page if you:
+
+- Are mapping a new Salesforce object or field into Postgres.
+- Need to investigate why a record is missing, stale, or duplicated on one side.
+- Are tuning sync intervals, batch sizes, or retry behavior.
+- Are reviewing a change that touches the `sync` schema or any synced table.
+
+## Architecture at a glance
+
+```text
+Salesforce  ←──→  Sync Engine (Node.js)  ←──→  Postgres (target DB)
+                          │
+                   App DB (sync schema)
+            ┌─────────────┼─────────────┐
+       sync_state    change_log    field_timestamps
+       sync_objects  sync_fields   conflict_log
+       app_config    dead_letter   reconciliation_log
+```
+
+The engine runs two directional flows on a cron, plus a periodic full reconciliation. All state — mappings, watermarks, change queue, conflicts — lives in the app DB under the `sync` schema.
+
+## Sync flows
+
+### Salesforce → Postgres
+
+1. Read the per-object high-water mark from `sync_state` (direction `sf_to_pg`).
+2. Query Salesforce with SOQL filtered by `SystemModstamp > lastSyncAt` and `LastModifiedById != SF_SYNC_USER_ID`.
+3. For each changed record:
+   - Map Salesforce fields to Postgres columns using `sync_fields`.
+   - Run the echo check — skip if the change originated from the sync user or the content hash matches.
+   - For existing rows, run the conflict resolver and update only winning fields.
+   - For new rows, insert with `_sync_source = 'sf_sync'`.
+4. Detect Salesforce deletes and soft-delete in Postgres (`deleted_at`).
+5. Advance the high-water mark in `sync_state`.
+
+### Postgres → Salesforce
+
+1. Read unprocessed rows from `change_log` where `source = 'local'` and `processed = FALSE`.
+2. Coalesce changes by `record_id` so the latest value wins per field.
+3. Run the echo check — skip rows where `source = 'sf_sync'`.
+4. Push to Salesforce in batches of 200, grouped into creates, updates, and deletes.
+5. On create success, write the real Salesforce `Id` back to Postgres and set `_sync_source = 'sf_sync'`.
+6. On failure, retry up to `SYNC_MAX_RETRIES` with exponential backoff, then move the row to `dead_letter_log`.
+
+The `change_log` is populated by the `track_changes` Postgres trigger, which fires on every `INSERT`, `UPDATE`, or `DELETE` on a synced table.
+
+## Conflict resolution
+
+Conflicts are resolved at the **field level**, not the record level.
+
+- `field_timestamps` tracks `last_modified` and `modified_by` for every field on every synced record.
+- Last-writer-wins: the field with the newer timestamp is kept.
+- Ties are broken per-object via `sync_objects.tie_breaker`, set to `sf` or `pg`.
+- Every conflict is recorded in `conflict_log` for audit.
+
+## Echo prevention
+
+Echo prevention stops infinite loops where a write in one system bounces back through the sync and re-applies itself.
+
+| Direction | How echoes are skipped |
+| --- | --- |
+| Salesforce → Postgres | Skip records where `LastModifiedById = SF_SYNC_USER_ID`, or where the content hash matches the existing Postgres row. |
+| Postgres → Salesforce | Skip `change_log` rows where `source = 'sf_sync'`. |
+
+The `track_changes` trigger copies `_sync_source` from the row into `change_log.source`, which is how the Postgres → Salesforce path knows what to skip.
+
+## Reconciliation
+
+A periodic full compare catches anything incremental sync missed. By default it runs daily at 02:00.
+
+1. Fetch every record for each synced object from both Salesforce and Postgres.
+2. Missing in Postgres → insert from Salesforce.
+3. Different on each side → run the conflict resolver, update Postgres.
+4. Missing in Salesforce → soft-delete in Postgres.
+5. Write a summary to `reconciliation_log`.
+
+## Orchestration
+
+| Trigger | Schedule | What it runs |
+| --- | --- | --- |
+| Cron | `SYNC_INTERVAL_CRON` (default: every minute) | Salesforce → Postgres, then Postgres → Salesforce, for all active objects. |
+| Manual | `POST /api/sync/trigger` | Same as cron, optionally filtered by object and/or direction. |
+| Reconciliation | `RECONCILIATION_CRON` (default: `0 2 * * *`) | Full reconciliation pass. |
+
+The orchestrator starts **paused** and must be resumed from the UI. Objects are processed in `sync_objects.sort_order`.
+
+### Manual trigger example
+
+```bash
+curl -X POST https://sync.internal/api/sync/trigger \
+  -H "Content-Type: application/json" \
+  -d '{"object": "Contact", "direction": "sf_to_pg"}'
+```
+
+Omit `object` or `direction` to run the full cycle.
+
+## Data layout
+
+### App DB — `sync` schema
+
+| Table | Purpose |
+| --- | --- |
+| `sync_objects` | Object mappings: Salesforce object ↔ Postgres table, tie-breaker, sort order. |
+| `sync_fields` | Field mappings: Salesforce field ↔ Postgres column, type, direction (`both`, `sf_to_pg`, `pg_to_sf`). |
+| `sync_state` | High-water marks per object and direction. |
+| `change_log` | Local changes captured by the `track_changes` trigger, queued for Salesforce push. |
+| `field_timestamps` | Per-field modification tracking used by the conflict resolver. |
+| `conflict_log` | History of every resolved conflict. |
+| `dead_letter_log` | Changes that exhausted retries. |
+| `reconciliation_log` | Reconciliation run history. |
+| `app_config` | Runtime config: Salesforce credentials, cron schedules, batch sizes. |
+
+### Target DB — `portal` schema
+
+Synced tables: `Account`, `Contact`, `Trip__c`, `Departure__c`, `Opportunity`, `Booking__c`, `Invoice_Line_Item__c`, `pymt__PaymentX__c`, `Flight_Info__c`.
+
+Each synced row carries the following bookkeeping columns:
+
+- `Id` — Salesforce ID, primary key.
+- `_sync_source` — who last wrote the row: `sf_sync` or `local`.
+- `_pg_last_modified_date` — Postgres-side modification timestamp.
+- `deleted_at` — soft-delete timestamp.
+- Plus the mapped business fields from `sync_fields`.
+
+Two triggers run on every synced table:
+
+- `track_changes` writes to `change_log` on `INSERT`/`UPDATE`/`DELETE`.
+- `update_pg_modified` sets `_pg_last_modified_date` on `UPDATE`.
+
+### `track_changes` behavior
+
+The trigger is the backbone of the Postgres → Salesforce flow. It fires `AFTER INSERT OR UPDATE OR DELETE` on each synced table.
+
+| Operation | What gets captured |
+| --- | --- |
+| `INSERT` | All non-metadata fields from the new row, with `operation = 'INSERT'`. |
+| `UPDATE` | Only fields that actually changed, in `changed_fields`; previous values go to `old_values`. No-op updates are skipped. |
+| `DELETE` | All field values from the deleted row in `old_values`, with `operation = 'DELETE'`. |
+
+Metadata columns are never recorded: `Id`, `_pg_id`, `_sync_source`, `_pg_created_date`, `_pg_last_modified_date`, `_pg_created_by_id`, `_pg_created_by_name`, `_pg_last_modified_by_id`, `_pg_last_modified_by_name`, `deleted_at`, `CreatedDate`, `CreatedById`, `LastModifiedDate`, `LastModifiedById`, `SystemModstamp`.
+
+## Configuration
+
+Bootstrap settings live in environment variables. Everything else is loaded from `sync.app_config` at startup so it can be changed without redeploying.
+
+### Environment variables
+
+| Variable | Purpose |
+| --- | --- |
+| `POSTGRES_URL` | Connection string for the app DB. |
+| `APP_DB_SCHEMA` | Schema name for sync state (default `sync`). |
+| `MELTANO_TARGET_SCHEMA` | Schema used by Meltano for the initial bulk load. |
+| `PG_POOL_MAX` | Max connections in the Postgres pool. |
+| `PORT` | HTTP port for the API and UI. |
+| `LOG_LEVEL` | `pino` log level. |
+
+### `sync.app_config` keys
+
+| Key | Purpose |
+| --- | --- |
+| Salesforce credentials | OAuth client ID/secret, username, refresh token, instance URL. |
+| `TARGET_DB_SCHEMA`, `DATABASE_URL` | Target Postgres location. |
+| `SYNC_INTERVAL_CRON` | Cron expression for the incremental sync loop. |
+| `RECONCILIATION_CRON` | Cron expression for the full reconciliation. |
+| `SYNC_BATCH_SIZE` | Records per Salesforce batch (max 200). |
+| `SYNC_MAX_PER_CYCLE` | Cap on records processed per object per cycle. |
+| `SYNC_MAX_RETRIES` | Retry attempts before moving a change to `dead_letter_log`. |
+| `SYNC_RETRY_BASE_DELAY_MS` | Base delay for exponential backoff. |
+| `SYNC_OVERLAP_MINUTES` | Look-back window added to the high-water mark to avoid edge-case misses. |
+| `ALERT_WEBHOOK_URL` | Webhook for sync failure alerts. |
+
+## Startup sequence
+
+1. Start the Express server and React UI.
+2. Run SQL migrations on the app DB.
+3. Load runtime config from `sync.app_config`.
+4. Connect to Salesforce via `jsforce`.
+5. Connect to the target DB and call `schemaManager.ensureSyncedTables()`, which creates tables and triggers dynamically from `sync_objects` and `sync_fields`.
+6. Start the orchestrator and alert monitor.
+7. Register graceful shutdown handlers.
+
+## Tech stack
+
+`express` · `pg` · `jsforce` · `node-cron` · `pino` · React + Vite for the UI · Meltano (`tap-salesforce` → `target-postgres`) for the initial bulk load.
