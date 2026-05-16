@@ -136,6 +136,36 @@ Two triggers run on every synced table:
 - `track_changes` writes to `change_log` on `INSERT`/`UPDATE`/`DELETE`.
 - `update_pg_modified` sets `_pg_last_modified_date` on `UPDATE`.
 
+### Foreign keys
+
+| Constraint | From | To | On delete |
+| --- | --- | --- | --- |
+| `Booking__c.Contact__c` | `Booking__c` | `Contact(Id)` | `CASCADE` |
+| `Booking__c.Departure__c` | `Booking__c` | `Departure__c(Id)` | `CASCADE` |
+| `Invoice_Line_Item__c.Opportunity__c` | `Invoice_Line_Item__c` | `Opportunity(Id)` | `CASCADE` |
+| `accounts.user_id` | `accounts` | `users(id)` | `CASCADE` |
+| `apikeys.user_id` | `apikeys` | `users(id)` | `CASCADE` |
+| `sessions.user_id` | `sessions` | `users(id)` | `CASCADE` |
+
+### Performance indexes
+
+| Index | Table | Column(s) | Notes |
+| --- | --- | --- | --- |
+| `idx_booking_contact` | `Booking__c` | `Contact__c` | FK lookup. |
+| `idx_booking_departure` | `Booking__c` | `Departure__c` | FK lookup. |
+| `idx_booking_opportunity` | `Booking__c` | `Opportunity__c` | FK lookup. |
+| `idx_booking_status` | `Booking__c` | `Status__c` | Status filtering. |
+| `idx_contact_account` | `Contact` | `AccountId` | FK lookup. |
+| `idx_departure_trip` | `Departure__c` | `Trip__c` | FK lookup. |
+| `idx_departure_status` | `Departure__c` | `Status__c` | Status filtering. |
+| `idx_flight_booking` | `Flight_Info__c` | `Booking__c` | FK lookup. |
+| `idx_invoice_li_opportunity` | `Invoice_Line_Item__c` | `Opportunity__c` | FK lookup. |
+| `idx_opportunity_account` | `Opportunity` | `AccountId` | FK lookup. |
+| `idx_opp_qbo_invoice_id` | `Opportunity` | `QBO_Invoice_Id__c` | Partial — `WHERE QBO_Invoice_Id__c IS NOT NULL`. |
+| `idx_payment_opportunity` | `pymt__PaymentX__c` | `pymt__Opportunity__c` | FK lookup. |
+| `idx_payment_contact` | `pymt__PaymentX__c` | `pymt__Contact__c` | FK lookup. |
+| `idx_payment_account` | `pymt__PaymentX__c` | `pymt__Account__c` | FK lookup. |
+
 ### `track_changes` behavior
 
 The trigger is the backbone of the Postgres → Salesforce flow. It fires `AFTER INSERT OR UPDATE OR DELETE` on each synced table.
