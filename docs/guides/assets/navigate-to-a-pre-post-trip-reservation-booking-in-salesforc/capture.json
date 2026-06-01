@@ -1,0 +1,655 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.12891674127126232,
+        "y": 0.5900735294117647
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.10922112802148612,
+        "y": 0.5716911764705882,
+        "width": 0.03939122649955237,
+        "height": 0.03676470588235294
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.280505119740376,
+        "y": 0.5935202205882353
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.20520227170993732,
+        "y": 0.5843290441176471,
+        "width": 0.15060569606087734,
+        "height": 0.01838235294117647
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.17361655102954343,
+        "y": 0.4083084405637255
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.13160250671441362,
+        "y": 0.39911726409313725,
+        "width": 0.08402808863025962,
+        "height": 0.01838235294117647
+      },
+      "pixelRatio": 2
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.16342952663384064,
+        "y": 0.8626206341911765
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.13160250671441362,
+        "y": 0.8534294577205882,
+        "width": 0.06365403983885408,
+        "height": 0.01838235294117647
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.lightning.force.com/lightning/r/Departure__c/a0AAJ000000Lc5C2AS/view",
+      "description": "Click the **SG-24510** link in the Segments section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".outputLookupLink-a0EAJ000000GFlx2AG-4440\\:0",
+        "textContent": "SG-24510",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.lightning.force.com/lightning/r/a0EAJ000000GFlx2AG/view",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 122,
+          "y": 466.5,
+          "width": 44,
+          "height": 30
+        },
+        "devicePixelRatio": 2,
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": "SG-24510",
+            "attrs": {
+              "title": "SG-24510",
+              "data-aura-class": "forceOutputLookup"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "span",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "th",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tr",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tbody",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "table",
+            "role": "grid",
+            "name": null,
+            "attrs": {
+              "data-aura-class": "uiVirtualDataTable",
+              "role": "grid"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "forceInlineEditGrid"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "uiScroller"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "forceListViewManagerGrid"
+            },
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "forceListViewManagerPrimaryDisplayManager"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.lightning.force.com/lightning/r/Segment__c/a0EAJ000000GFlx2AG/view?ws=%2Flightning%2Fr%2FDeparture__c%2Fa0AAJ000000Lc5C2AS%2Fview",
+      "description": "Click the **2003MandelA_03-30-2024** link in the Information section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#window",
+        "textContent": "2003MandelA_03-30-2024",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.lightning.force.com/lightning/r/Departure__c/a0AAJ000000Lc5C2AS/view",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 229.2109375,
+          "y": 476.8125,
+          "width": 168.2265625,
+          "height": 15
+        },
+        "devicePixelRatio": 2,
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "records-hoverable-link",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "force-lookup",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "slot",
+            "role": null,
+            "name": "output",
+            "attrs": {
+              "name": "output"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "span",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-target-selection-name": "sfdc:RecordField.Segment__c.Departure__c"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "record_flexipage-record-field",
+            "role": "listitem",
+            "name": null,
+            "attrs": {
+              "role": "listitem"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "slot",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "flexipage-field",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "slot",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.lightning.force.com/lightning/r/Departure__c/a0AAJ000000Lc5C2AS/view",
+      "description": "Click the **B-0000132577** booking link in the Bookings section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#window",
+        "textContent": "B-0000132577",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.lightning.force.com/lightning/r/a06VD00000PdYxtYAF/view",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 147,
+          "y": 325.6796875,
+          "width": 93.859375,
+          "height": 15
+        },
+        "devicePixelRatio": 2,
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "records-hoverable-link",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "force-lookup",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lst-output-lookup",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-primitive-custom-cell",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "span",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-primitive-cell-factory",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "th",
+            "role": "rowheader",
+            "name": null,
+            "attrs": {
+              "role": "rowheader"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tr",
+            "role": "row",
+            "name": null,
+            "attrs": {
+              "role": "row"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tbody",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "table",
+            "role": "grid",
+            "name": null,
+            "attrs": {
+              "role": "grid"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.lightning.force.com/lightning/r/Booking__c/a06VD00000PdYxtYAF/view",
+      "description": "Click the **PTRB-0631** link in the Pre/Post Trip Reservation Booking section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#window",
+        "textContent": "PTRB-0631",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.lightning.force.com/lightning/r/a28VD000001LaxZYAS/view",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 147,
+          "y": 696.3984375,
+          "width": 71.1015625,
+          "height": 15
+        },
+        "devicePixelRatio": 2,
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "records-hoverable-link",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "force-lookup",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lst-output-lookup",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-primitive-custom-cell",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "span",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-primitive-cell-factory",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "th",
+            "role": "rowheader",
+            "name": null,
+            "attrs": {
+              "role": "rowheader"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tr",
+            "role": "row",
+            "name": null,
+            "attrs": {
+              "role": "row"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "tbody",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "table",
+            "role": "grid",
+            "name": null,
+            "attrs": {
+              "role": "grid"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      }
+    }
+  ]
+}
