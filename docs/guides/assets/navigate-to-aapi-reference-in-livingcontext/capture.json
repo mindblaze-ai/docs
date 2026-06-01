@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.5,
+        "y": 0.8709118412990197
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.11414503133393017,
+        "y": 0.27328431372549017
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.2549019607843137,
+        "width": 0.21396598030438674,
+        "height": 0.03676470588235294
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.11414503133393017,
+        "y": 0.3492647058823529
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.33088235294117646,
+        "width": 0.21396598030438674,
+        "height": 0.03676470588235294
+      },
+      "pixelRatio": 2
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.11414503133393017,
+        "y": 0.6678921568627451
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.6495098039215687,
+        "width": 0.21396598030438674,
+        "height": 0.03676470588235294
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "http://localhost:2000/connections",
+      "description": "Click anywhere on the page to dismiss any open menus or dialogs.",
+      "elementMeta": {
+        "tag": "body",
+        "cssSelector": ".antialiased",
+        "textContent": "Workspace",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "body",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1117,
+          "height": 1421.328125
+        },
+        "devicePixelRatio": 2
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "http://localhost:2000/connections",
+      "description": "Click the **Coverage** link in the workspace rail.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".lc-nav-row[href='\\/coverage']",
+        "textContent": "Coverage",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/coverage",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 208,
+          "width": 239,
+          "height": 30
+        },
+        "devicePixelRatio": 2
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "http://localhost:2000/coverage",
+      "description": "Click the **Members** link in the workspace rail.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".lc-nav-row[href='\\/organization']",
+        "textContent": "Members",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/organization",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 270,
+          "width": 239,
+          "height": 30
+        },
+        "devicePixelRatio": 2
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "http://localhost:2000/organization",
+      "description": "Click the **AAPI reference** link in the workspace rail.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/api-reference']",
+        "textContent": "API reference",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/api-reference",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 530,
+          "width": 239,
+          "height": 30
+        },
+        "devicePixelRatio": 2
+      }
+    }
+  ]
+}
