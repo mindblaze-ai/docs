@@ -1,0 +1,721 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.05323271038495971,
+        "y": 0.3446741746905089
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.01432408236347359,
+        "y": 0.3343578060522696,
+        "width": 0.07781725604297225,
+        "height": 0.02063273727647868
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.05756210832587287,
+        "y": 0.45122685185185185
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.01432408236347359,
+        "y": 0.4401157407407407,
+        "width": 0.08647605192479857,
+        "height": 0.022222222222222223
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.34514184198746645,
+        "y": 0.49344907407407407
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.31044371083258726,
+        "y": 0.46381944444444445,
+        "width": 0.06939626230975827,
+        "height": 0.05925925925925926
+      },
+      "pixelRatio": 2
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.5110787824529991,
+        "y": 0.5645601851851851
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.4856339525514772,
+        "y": 0.5349305555555556,
+        "width": 0.050889659803043864,
+        "height": 0.05925925925925926
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:ad03120a-0c4a-4464-9431-6d9d6b19a4d3?viewer%21megaVerb=group-discover&dialog%21dropin=download-pdf",
+      "description": "Click the **Setup Home** link in the Administration section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/lightning\\/setup\\/SetupOneHome\\/home']",
+        "textContent": "Setup Home",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.my.salesforce-setup.com/lightning/setup/SetupOneHome/home",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 16,
+          "y": 243.078125,
+          "width": 86.921875,
+          "height": 15
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": "Setup Home",
+            "attrs": {
+              "title": "Setup Home"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": "treeitem",
+            "name": "Setup Home",
+            "attrs": {
+              "aria-label": "Setup Home",
+              "role": "treeitem"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "ul",
+            "role": "tree",
+            "name": "Setup Tree",
+            "attrs": {
+              "aria-label": "Setup Tree",
+              "role": "tree"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "lafPageHost"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "forceBrandBand"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexSplitViewWrapper"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexConsoleTabset"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexWorkspaceManager"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/view-agentforce-features-in-salesforce-go/step-01.jpg",
+      "highlight": {
+        "x": 0.01432408236347359,
+        "y": 0.3343578060522696,
+        "width": 0.07781725604297225,
+        "height": 0.02063273727647868
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "https://www.google.com/search?q=indian+visa+online+for+netherlands+citizen&rlz=1C5CHFA_enNL1087NL1087&oq=indian+visa+online+for+netherlands+citizen&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTE1NDE1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+      "description": "Click the **Salesforce Go** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[data-aura-rendered-by='\\38 98\\:0']",
+        "textContent": "Salesforce Go",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://obp--developer.sandbox.my.salesforce-setup.com/lightning/setup/SalesforceGo/home",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 16,
+          "y": 297.078125,
+          "width": 96.59375,
+          "height": 15
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 675
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": "Salesforce Go",
+            "attrs": {
+              "title": "Salesforce Go"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": "treeitem",
+            "name": "Salesforce Go",
+            "attrs": {
+              "aria-label": "Salesforce Go",
+              "role": "treeitem"
+            },
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "ul",
+            "role": "tree",
+            "name": "Setup Tree",
+            "attrs": {
+              "aria-label": "Setup Tree",
+              "role": "tree"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "lafPageHost"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "forceBrandBand"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexSplitViewWrapper"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexConsoleTabset"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {
+              "data-aura-class": "navexWorkspaceManager"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/view-agentforce-features-in-salesforce-go/step-02.jpg",
+      "highlight": {
+        "x": 0.01432408236347359,
+        "y": 0.4401157407407407,
+        "width": 0.08647605192479857,
+        "height": 0.022222222222222223
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.my.salesforce-setup.com/lightning/setup/SalesforceGo/home?list=initialsetup",
+      "description": "Click the **Initial Setup** tab.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#initialsetup__item",
+        "textContent": "Initial Setup",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "tab",
+        "href": "javascript:void(0)",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 346.765625,
+          "y": 313.078125,
+          "width": 77.515625,
+          "height": 40
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 675
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": "tab",
+            "name": null,
+            "attrs": {
+              "role": "tab"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": "presentation",
+            "name": "Initial Setup",
+            "attrs": {
+              "title": "Initial Setup",
+              "data-target-selection-name": "initialsetupTab",
+              "role": "presentation"
+            },
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "ul",
+            "role": "tablist",
+            "name": "Tabs",
+            "attrs": {
+              "aria-label": "Tabs",
+              "role": "tablist"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-tab-bar",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-tabset",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-explorer",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "slot",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-event-handler",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-page",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/view-agentforce-features-in-salesforce-go/step-03.jpg",
+      "highlight": {
+        "x": 0.31044371083258726,
+        "y": 0.46381944444444445,
+        "width": 0.06939626230975827,
+        "height": 0.05925925925925926
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "https://obp--developer.sandbox.my.salesforce-setup.com/lightning/setup/SalesforceGo/home?list=features",
+      "description": "Click the **Features** tab to view available Agentforce features.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#features__item",
+        "textContent": "Features",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "tab",
+        "href": "javascript:void(0)",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 542.453125,
+          "y": 361.078125,
+          "width": 56.84375,
+          "height": 40
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 675
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": "tab",
+            "name": null,
+            "attrs": {
+              "role": "tab"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": "presentation",
+            "name": "Features",
+            "attrs": {
+              "title": "Features",
+              "data-target-selection-name": "featuresTab",
+              "role": "presentation"
+            },
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "ul",
+            "role": "tablist",
+            "name": "Tabs",
+            "attrs": {
+              "aria-label": "Tabs",
+              "role": "tablist"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-tab-bar",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "lightning-tabset",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-explorer",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "slot",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-event-handler",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "setup_discovery-page",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/view-agentforce-features-in-salesforce-go/step-04.jpg",
+      "highlight": {
+        "x": 0.4856339525514772,
+        "y": 0.5349305555555556,
+        "width": 0.050889659803043864,
+        "height": 0.05925925925925926
+      }
+    }
+  ]
+}
