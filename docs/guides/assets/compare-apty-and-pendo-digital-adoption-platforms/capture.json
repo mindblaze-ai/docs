@@ -1,0 +1,1215 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.4865711727842435,
+        "y": 0.734525447042641
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.4082992949865712,
+        "y": 0.6973865199449794,
+        "width": 0.15654375559534467,
+        "height": 0.07427785419532325
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.5144429834377797,
+        "y": 0.061898211829436035
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.4509847806624888,
+        "y": 0,
+        "width": 0.12691640555058192,
+        "height": 0.12379642365887207
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.3895234165174575,
+        "y": 0.061898211829436035
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.35939598254252464,
+        "y": 0,
+        "width": 0.06025486794986571,
+        "height": 0.12379642365887207
+      },
+      "pixelRatio": 2
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.283530102954342,
+        "y": 0.061898211829436035
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.23899815353625783,
+        "y": 0,
+        "width": 0.0890638988361683,
+        "height": 0.12379642365887207
+      },
+      "pixelRatio": 2
+    },
+    "step-05.jpg": {
+      "zoom": {
+        "x": 0.5058156613697403,
+        "y": 0.43080510660247595
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.42470764324082366,
+        "y": 0.414298916781293,
+        "width": 0.16221603625783348,
+        "height": 0.033012379642365884
+      },
+      "pixelRatio": 2
+    },
+    "step-06.jpg": {
+      "zoom": {
+        "x": 0.43857360675917634,
+        "y": 0.6395396320495186
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.6261283528198074,
+        "width": 0.11827859221128022,
+        "height": 0.026822558459422285
+      },
+      "pixelRatio": 2
+    },
+    "step-07.jpg": {
+      "zoom": {
+        "x": 0.5156564738137869,
+        "y": 0.5388798143053645
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.4108521709937332,
+        "y": 0.5017408872077029,
+        "width": 0.20960860564010744,
+        "height": 0.07427785419532325
+      },
+      "pixelRatio": 2
+    },
+    "step-08.jpg": {
+      "zoom": {
+        "x": 0.4601646430170098,
+        "y": 0.5415018913342503
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.5280906121045392,
+        "width": 0.16146066472694717,
+        "height": 0.026822558459422285
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "https://apty.ai/apty-vs-pendo/",
+      "description": "Click the **Get a free trial** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".elementor-element-8b684d8 .elementor-button",
+        "textContent": "Get a free trial",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/apty-vs-pendo/#",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 456.0703125,
+          "y": 507,
+          "width": 174.859375,
+          "height": 54
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-01.jpg",
+      "highlight": {
+        "x": 0.4082992949865712,
+        "y": 0.6973865199449794,
+        "width": 0.15654375559534467,
+        "height": 0.07427785419532325
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "https://apty.ai/apty-vs-pendo/",
+      "description": "Click the **Customer journey** link in the Apty AI section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='https\\:\\/\\/apty\\.ai\\/customer-journey']",
+        "textContent": "Customer journey",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/customer-journey",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 503.75,
+          "y": 0,
+          "width": 141.765625,
+          "height": 90
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "nav",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-02.jpg",
+      "highlight": {
+        "x": 0.4509847806624888,
+        "y": 0,
+        "width": 0.12691640555058192,
+        "height": 0.12379642365887207
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "https://apty.ai/customer-journey/",
+      "description": "Click the **Pricing** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='https\\:\\/\\/apty\\.ai\\/pricing']",
+        "textContent": "Pricing",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/pricing",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 401.4453125,
+          "y": 0,
+          "width": 67.3046875,
+          "height": 90
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "nav",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-03.jpg",
+      "highlight": {
+        "x": 0.35939598254252464,
+        "y": 0,
+        "width": 0.06025486794986571,
+        "height": 0.12379642365887207
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "https://apty.ai/pricing/",
+      "description": "Click the **Solutions** link in the By app categories section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ":root > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)",
+        "textContent": "Solutions",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 266.9609375,
+          "y": 0,
+          "width": 99.484375,
+          "height": 90
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "nav",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-04.jpg",
+      "highlight": {
+        "x": 0.23899815353625783,
+        "y": 0,
+        "width": 0.0890638988361683,
+        "height": 0.12379642365887207
+      }
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "url": "https://apty.ai/pricing/",
+      "description": "Click the **Change management** link under the By use cases section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='https\\:\\/\\/apty\\.ai\\/digital-adoption-use-cases\\/change-management\\/']",
+        "textContent": "Change management",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/digital-adoption-use-cases/change-management/",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 474.3984375,
+          "y": 301.1953125,
+          "width": 181.1953125,
+          "height": 24
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "nav",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "header",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-05.jpg",
+      "highlight": {
+        "x": 0.42470764324082366,
+        "y": 0.414298916781293,
+        "width": 0.16221603625783348,
+        "height": 0.033012379642365884
+      }
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "url": "https://apty.ai/digital-adoption-use-cases/change-management/",
+      "description": "Click the **Desired outcomes** link to view the outcomes section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "#menu-item-1596 a",
+        "textContent": "Desired outcomes",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/digital-adoption-outcomes/",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 423.828125,
+          "y": 455.1953125,
+          "width": 132.1171875,
+          "height": 19.5
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "footer",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-06.jpg",
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.6261283528198074,
+        "width": 0.11827859221128022,
+        "height": 0.026822558459422285
+      }
+    },
+    {
+      "index": 7,
+      "action": "click",
+      "url": "https://apty.ai/digital-adoption-outcomes/",
+      "description": "Click the **Compliance & Efficiency** option.",
+      "elementMeta": {
+        "tag": "div",
+        "cssSelector": ".apty-bo-tag.active",
+        "textContent": "Compliance & Efficiency",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "div",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 458.921875,
+          "y": 364.765625,
+          "width": 234.1328125,
+          "height": 54
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 9
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "section",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-07.jpg",
+      "highlight": {
+        "x": 0.4108521709937332,
+        "y": 0.5017408872077029,
+        "width": 0.20960860564010744,
+        "height": 0.07427785419532325
+      }
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "url": "https://apty.ai/digital-adoption-outcomes/",
+      "description": "Click the **Right time to fix adoption** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='https\\:\\/\\/apty\\.ai\\/customer-journey\\/']",
+        "textContent": "Right time to fix adoption",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/customer-journey/",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 423.828125,
+          "y": 383.921875,
+          "width": 180.3515625,
+          "height": 19.5
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "footer",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-digital-adoption-platforms/step-08.jpg",
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.5280906121045392,
+        "width": 0.16146066472694717,
+        "height": 0.026822558459422285
+      }
+    }
+  ]
+}
