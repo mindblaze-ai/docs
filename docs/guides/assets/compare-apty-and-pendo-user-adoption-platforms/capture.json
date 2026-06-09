@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.8682855863921217,
+        "y": 0.42557169876203577
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.7741718889883616,
+        "y": 0.38636949793672626,
+        "width": 0.18822739480752015,
+        "height": 0.07840440165061899
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.8682855863921217,
+        "y": 0.8149931224209078
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.7741718889883616,
+        "y": 0.7606602475928473,
+        "width": 0.18822739480752015,
+        "height": 0.10866574965612105
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.4268653480304387,
+        "y": 0.6008639958734525
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.5874527166437414,
+        "width": 0.09486207475380483,
+        "height": 0.026822558459422285
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "https://apty.ai/blog/user-adoption-software/",
+      "description": "Click the **What is user adoption software** link in the Contents section.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\#what-is-user-adoption-software']",
+        "textContent": "What is user adoption software",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/blog/user-adoption-software/#what-is-user-adoption-software",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 864.75,
+          "y": 280.890625,
+          "width": 210.25,
+          "height": 57
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-user-adoption-platforms/step-01.jpg",
+      "highlight": {
+        "x": 0.7741718889883616,
+        "y": 0.38636949793672626,
+        "width": 0.18822739480752015,
+        "height": 0.07840440165061899
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "https://apty.ai/blog/user-adoption-software/",
+      "description": "Click the **How Apty drives real business execution inside enterprise applications** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\#how-apty-drives-real-business-execution-inside-enterprise-applications']",
+        "textContent": "How Apty drives real business execution inside enterprise applications",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/blog/user-adoption-software/#how-apty-drives-real-business-execution-inside-enterprise-applications",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 864.75,
+          "y": 553,
+          "width": 210.25,
+          "height": 79
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 5
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-user-adoption-platforms/step-02.jpg",
+      "highlight": {
+        "x": 0.7741718889883616,
+        "y": 0.7606602475928473,
+        "width": 0.18822739480752015,
+        "height": 0.10866574965612105
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "https://apty.ai/blog/user-adoption-software/",
+      "description": "Click the **Apty vs Pendo** link to compare the two platforms.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='https\\:\\/\\/apty\\.ai\\/apty-vs-pendo\\/']",
+        "textContent": "Apty vs Pendo",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://apty.ai/apty-vs-pendo/",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 423.828125,
+          "y": 427.078125,
+          "width": 105.9609375,
+          "height": 19.5
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "footer",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/compare-apty-and-pendo-user-adoption-platforms/step-03.jpg",
+      "highlight": {
+        "x": 0.3794343106535363,
+        "y": 0.5874527166437414,
+        "width": 0.09486207475380483,
+        "height": 0.026822558459422285
+      }
+    }
+  ]
+}
