@@ -1,0 +1,478 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.11459265890778872,
+        "y": 0.22833562585969738
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.20907840440165062,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.11459265890778872,
+        "y": 0.2723521320495186
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.2530949105914718,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.11459265890778872,
+        "y": 0.6685006877579092
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.6492434662998624,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "https://agent.getswan.com/chat",
+      "description": "Click the **Desk** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/desk']",
+        "textContent": "Desk",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://agent.getswan.com/desk",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 152,
+          "width": 240,
+          "height": 28
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/access-tools-in-swan-accounts/step-01.jpg",
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.20907840440165062,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "https://agent.getswan.com/desk?view=activity",
+      "description": "Click the **Accounts** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/companies']",
+        "textContent": "Accounts",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://agent.getswan.com/companies",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 184,
+          "width": 240,
+          "height": 28
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/access-tools-in-swan-accounts/step-02.jpg",
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.2530949105914718,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "https://agent.getswan.com/companies?view=board",
+      "description": "Click the **Tools** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/tools']",
+        "textContent": "Tools",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "https://agent.getswan.com/tools",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 8,
+          "y": 472,
+          "width": 240,
+          "height": 28
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 727
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "li",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "ul",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/access-tools-in-swan-accounts/step-03.jpg",
+      "highlight": {
+        "x": 0.007162041181736795,
+        "y": 0.6492434662998624,
+        "width": 0.21486123545210384,
+        "height": 0.03851444291609354
+      }
+    }
+  ]
+}
