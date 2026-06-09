@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.13473589973142344,
+        "y": 0.4172794117647059
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.009847806624888093,
+        "y": 0.39950980392156865,
+        "width": 0.24977618621307074,
+        "height": 0.03553921568627451
+      },
+      "pixelRatio": 2
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.13473589973142344,
+        "y": 0.4528186274509804
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.009847806624888093,
+        "y": 0.43504901960784315,
+        "width": 0.24977618621307074,
+        "height": 0.03553921568627451
+      },
+      "pixelRatio": 2
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "pixelRatio": 2
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "pixelRatio": 2
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "http://mindblaze-ai.localhost:2000/cr/ddc53a25-14ea-4389-90c2-321a5c467f3d",
+      "description": "Click the **02-Business-Process-Overview** button.",
+      "elementMeta": {
+        "tag": "button",
+        "cssSelector": ".lc-space-tree-row.is-active",
+        "textContent": "02-Business-Process-Overview",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "button",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 11,
+          "y": 326,
+          "width": 279,
+          "height": 29
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 816
+        },
+        "composedPath": [
+          {
+            "tag": "button",
+            "role": null,
+            "name": "docs/01-Overview/02-Business-Process-Overview.md",
+            "attrs": {
+              "title": "docs/01-Overview/02-Business-Process-Overview.md"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 4
+          },
+          {
+            "tag": "aside",
+            "role": null,
+            "name": "Section sidebar",
+            "attrs": {
+              "aria-label": "Section sidebar"
+            },
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/navigate-to-developer-setup-guide-in-livingcontext/step-01.jpg",
+      "highlight": {
+        "x": 0.009847806624888093,
+        "y": 0.39950980392156865,
+        "width": 0.24977618621307074,
+        "height": 0.03553921568627451
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "http://mindblaze-ai.localhost:2000/cr/ddc53a25-14ea-4389-90c2-321a5c467f3d",
+      "description": "Click the **03-Developer-Setup-Guide** button.",
+      "elementMeta": {
+        "tag": "button",
+        "cssSelector": ".lc-space-tree-row.is-active",
+        "textContent": "03-Developer-Setup-Guide",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "button",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 11,
+          "y": 355,
+          "width": 279,
+          "height": 29
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 816
+        },
+        "composedPath": [
+          {
+            "tag": "button",
+            "role": null,
+            "name": "docs/01-Overview/03-Developer-Setup-Guide.md",
+            "attrs": {
+              "title": "docs/01-Overview/03-Developer-Setup-Guide.md"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 4
+          },
+          {
+            "tag": "aside",
+            "role": null,
+            "name": "Section sidebar",
+            "attrs": {
+              "aria-label": "Section sidebar"
+            },
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/navigate-to-developer-setup-guide-in-livingcontext/step-02.jpg",
+      "highlight": {
+        "x": 0.009847806624888093,
+        "y": 0.43504901960784315,
+        "width": 0.24977618621307074,
+        "height": 0.03553921568627451
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "http://mindblaze-ai.localhost:2000/cr/ddc53a25-14ea-4389-90c2-321a5c467f3d",
+      "description": "Click on the page to focus the browser window.",
+      "elementMeta": {
+        "tag": "html",
+        "cssSelector": ".light",
+        "textContent": "HOW TO APPLY",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "html",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1117,
+          "height": 816
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 816
+        },
+        "composedPath": [
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/navigate-to-developer-setup-guide-in-livingcontext/step-03.jpg",
+      "highlight": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "http://mindblaze-ai.localhost:2000/cr/ddc53a25-14ea-4389-90c2-321a5c467f3d",
+      "description": "Click on the page to focus the browser window.",
+      "elementMeta": {
+        "tag": "html",
+        "cssSelector": ".light",
+        "textContent": "HOW TO APPLY",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "html",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1117,
+          "height": 816
+        },
+        "devicePixelRatio": 2,
+        "viewport": {
+          "width": 1117,
+          "height": 816
+        },
+        "composedPath": [
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/navigate-to-developer-setup-guide-in-livingcontext/step-04.jpg",
+      "highlight": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}
