@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "steps": {
+    "step-01.jpg": {
+      "zoom": {
+        "x": 0.26576576576576577,
+        "y": 0.030534351145038167
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.25405405405405407,
+        "y": 0.013994910941475827,
+        "width": 0.023423423423423424,
+        "height": 0.03307888040712468
+      },
+      "pixelRatio": 2.5
+    },
+    "step-02.jpg": {
+      "zoom": {
+        "x": 0.13513513513513514,
+        "y": 0.22569975719500437
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.010810810810810811,
+        "y": 0.2015267292051825,
+        "width": 0.24864864864864866,
+        "height": 0.04834605597964377
+      },
+      "pixelRatio": 2.5
+    },
+    "step-03.jpg": {
+      "zoom": {
+        "x": 0.12252252252252252,
+        "y": 0.5310432492321684
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.010810810810810811,
+        "y": 0.5068702212423465,
+        "width": 0.22342342342342342,
+        "height": 0.04834605597964377
+      },
+      "pixelRatio": 2.5
+    },
+    "step-04.jpg": {
+      "zoom": {
+        "x": 0.3805405625351914,
+        "y": 0.8269720101781171
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.25297298946896113,
+        "y": 0.8091603053435115,
+        "width": 0.2551351461324606,
+        "height": 0.035623409669211195
+      },
+      "pixelRatio": 2.5
+    },
+    "step-05.jpg": {
+      "zoom": {
+        "x": 1,
+        "y": 0.6038168016584168
+      },
+      "level": 2,
+      "highlight": {
+        "x": 0.9215484344207489,
+        "y": 0.5885496260858978,
+        "width": 0.16104167216532939,
+        "height": 0.030534351145038167
+      },
+      "pixelRatio": 2.5
+    }
+  },
+  "replay": [
+    {
+      "index": 1,
+      "action": "click",
+      "url": "http://localhost:2000/docs?repo=mindblaze-ai%2FOBP-salesforce&path=docs%2F03-Core-Features%2F02-Feature-Booking-Reservation-Process.md",
+      "description": "Click the **Show workspace nav** button.",
+      "elementMeta": {
+        "tag": "button",
+        "cssSelector": ".lc-app-iconbtn",
+        "textContent": null,
+        "ariaLabel": "Show workspace nav",
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "button",
+        "href": null,
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 282,
+          "y": 11,
+          "width": 26,
+          "height": 26
+        },
+        "devicePixelRatio": 2.5,
+        "viewport": {
+          "width": 1110,
+          "height": 786
+        },
+        "composedPath": [
+          {
+            "tag": "button",
+            "role": null,
+            "name": "Show workspace nav",
+            "attrs": {
+              "title": "Show workspace nav",
+              "aria-label": "Show workspace nav"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/browse-ingested-metadata-in-livingcontext/step-01.jpg",
+      "highlight": {
+        "x": 0.25405405405405407,
+        "y": 0.013994910941475827,
+        "width": 0.023423423423423424,
+        "height": 0.03307888040712468
+      }
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "url": "http://localhost:2000/docs?repo=mindblaze-ai%2FOBP-salesforce&path=docs%2F03-Core-Features%2F02-Feature-Booking-Reservation-Process.md",
+      "description": "Click the **Home** link in the workspace rail.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".lc-nav-row[href='\\/home']",
+        "textContent": "Home",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/home",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 12,
+          "y": 158.40000915527344,
+          "width": 276,
+          "height": 38
+        },
+        "devicePixelRatio": 2.5,
+        "viewport": {
+          "width": 1110,
+          "height": 786
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "aside",
+            "role": null,
+            "name": "Workspace rail",
+            "attrs": {
+              "aria-label": "Workspace rail"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/browse-ingested-metadata-in-livingcontext/step-02.jpg",
+      "highlight": {
+        "x": 0.010810810810810811,
+        "y": 0.2015267292051825,
+        "width": 0.24864864864864866,
+        "height": 0.04834605597964377
+      }
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "url": "http://localhost:2000/home",
+      "description": "Click the **Settings** link in the workspace rail.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": ".lc-nav-row[href='\\/settings']",
+        "textContent": "Settings",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/settings",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 12,
+          "y": 398.3999938964844,
+          "width": 248,
+          "height": 38
+        },
+        "devicePixelRatio": 2.5,
+        "viewport": {
+          "width": 1110,
+          "height": 786
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 6
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "aside",
+            "role": null,
+            "name": "Workspace rail",
+            "attrs": {
+              "aria-label": "Workspace rail"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/browse-ingested-metadata-in-livingcontext/step-03.jpg",
+      "highlight": {
+        "x": 0.010810810810810811,
+        "y": 0.5068702212423465,
+        "width": 0.22342342342342342,
+        "height": 0.04834605597964377
+      }
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "url": "http://localhost:2000/settings",
+      "description": "Click the **Connections** link in the sidebar.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[title='Connections']",
+        "textContent": "Connections",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/connections",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 280.8000183105469,
+          "y": 636,
+          "width": 283.20001220703125,
+          "height": 28
+        },
+        "devicePixelRatio": 2.5,
+        "viewport": {
+          "width": 1110,
+          "height": 786
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": "Connections",
+            "attrs": {
+              "title": "Connections"
+            },
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 4
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 2
+          },
+          {
+            "tag": "aside",
+            "role": null,
+            "name": "Section sidebar",
+            "attrs": {
+              "aria-label": "Section sidebar"
+            },
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "body",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "html",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/browse-ingested-metadata-in-livingcontext/step-04.jpg",
+      "highlight": {
+        "x": 0.25297298946896113,
+        "y": 0.8091603053435115,
+        "width": 0.2551351461324606,
+        "height": 0.035623409669211195
+      }
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "url": "http://localhost:2000/connections",
+      "description": "Click the **Browse ingested metadata** link.",
+      "elementMeta": {
+        "tag": "a",
+        "cssSelector": "[href='\\/connections\\/52de60f203e8cdbbbb1b179b1b156a6d83c751cddddb3d680cbe7cdcd0567b47\\/metadata']",
+        "textContent": "Browse ingested metadata",
+        "ariaLabel": null,
+        "placeholder": null,
+        "altText": null,
+        "name": null,
+        "role": "a",
+        "href": "http://localhost:2000/connections/52de60f203e8cdbbbb1b179b1b156a6d83c751cddddb3d680cbe7cdcd0567b47/metadata",
+        "inputType": null,
+        "dataTestId": null,
+        "rect": {
+          "x": 1022.9187622070312,
+          "y": 462.6000061035156,
+          "width": 178.75625610351562,
+          "height": 24
+        },
+        "devicePixelRatio": 2.5,
+        "viewport": {
+          "width": 1110,
+          "height": 786
+        },
+        "composedPath": [
+          {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 1
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 3
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          },
+          {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "attrs": {},
+            "isShadowHost": false,
+            "nthOfType": 0
+          }
+        ]
+      },
+      "screenshot": "docs/guides/assets/browse-ingested-metadata-in-livingcontext/step-05.jpg",
+      "highlight": {
+        "x": 0.9215484344207489,
+        "y": 0.5885496260858978,
+        "width": 0.16104167216532939,
+        "height": 0.030534351145038167
+      }
+    }
+  ],
+  "recording": {
+    "file": "recording.webm",
+    "durationMs": 34633,
+    "width": 2730,
+    "height": 1934,
+    "mime": "video/webm;codecs=vp9"
+  }
+}
